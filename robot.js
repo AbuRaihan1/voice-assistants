@@ -14,11 +14,12 @@ function read(text) {
   // speech.text.toLowerCase();
   if (text == "hello how are you") {
     speech.text = "hi. i am fine. thank you. and you?";
-  } else if (text == "i am also fine") {
+  } else if (text == "I am also fine") {
     speech.text = "oh nice";
-  } else if (text == "i am also fine what are you doing now") {
+  } else if (text == "I am also fine what are you doing now") {
     speech.text = "nothing. i am just talking with you";
-  } else if (text == "hello") {
+  }
+   else if (text == "hello") {
     speech.text = "hi. how are you?";
   } else if (text == "hi") {
     speech.text = "hello How are you?";
@@ -36,10 +37,10 @@ function read(text) {
   } else if (text == "what is your name") {
     speech.text =
       "my name not defined yet. my name will defined jalajontrona. so, what is your name?";
-  } 
+  }
   // else if (text == "my name is " + text) {
   //   speech.text = "oh nice name."
-  // } 
+  // }
   else if (text == "thank you") {
     speech.text = "you are wellcome";
   } else if (text == "hmm") {
