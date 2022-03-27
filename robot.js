@@ -13,11 +13,11 @@ function read(text) {
   speech.text = text;
   // speech.text.toLowerCase();
   if (text == "hello how are you") {
-    speech.text = "hi. i am fine. thank you. and you?";
+    speech.text = "hi. i am fine. thank you. and you?"
   } else if (text == "i am also fine") {
     speech.text = "oh nice"
   } else if (text == "i am also fine what are you doing now") {
-    speech.text = "nothing. i am just talking with you";
+    speech.text = "nothing. i am just talking with you"
   } else if (text == "i am also fine") {
     speech.text = "oh nice"
   } else if (text == "hello") {
@@ -35,19 +35,28 @@ function read(text) {
   } else if (text == "i am fine and you") {
     speech.text = "I'm Also fine."
   } else if (text == "nice to meet you") {
-    speech.text = "thank you. nice to meet you too.";
+    speech.text = "thank you. nice to meet you too."
   } else if (text == "your voice is so nice") {
     speech.text = "thank you"
   } else if (text == "what is your name") {
     speech.text =
       "my name not defined yet. my name will defined jalajontrona. so, what is your name?"
   } else if (text == "my name is " + text) {
-    speech.text = "oh nice name.";
+    speech.text = "oh nice name."
   } else if (text == "thank you") {
-    speech.text = "you are wellcome";
-  } else if (text == "hmm" || "hmmm" || "hmmmm" || "oyo") {
+    speech.text = "you are wellcome"
+  } else if (text == "hmm") {
     speech.text = "oyo"
-  } else {
+  } 
+  else if(text== "what is my mother name"){
+    speech.text="Lutpha"
+  }
+
+  else if(text=="what is my father name"){
+    speech.text=="Abdul Hakim"
+  }
+
+  else {
     speech.text = "please try again"
   }
   document.getElementById("ai_voice").innerHTML = speech.text;
