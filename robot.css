@@ -1,0 +1,31 @@
+.robot_container{
+  display: block;
+  text-align: center;
+}
+
+.micro{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.robot_container i{
+  color: aqua;
+  background: none;
+  border: 1px solid aqua;
+  padding: 5px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all .3s ease-in-out;
+}
+
+.robot_container i:hover{
+  color: #ff5200;
+  border: #ff5200;
+  background: #000;
+  border: 1px solid black;
+}
