@@ -28,8 +28,8 @@ function read(text) {
   } else if (text == "who is shiblu GF") {
     speech.text =
       "haha. its a weard question. if i said this, i think shiblu will heart me. but, i don't have nothing to do anything. Raihan Ahmed called me to say this. so, i have to say this Name. Shiblu's gf name is Rima. sorry shiblu. haha";
-  } else if (text == "i am fine and you") {
-    speech.text = "I'm Also fine.";
+  } else if (text == "I am fine and you") {
+    speech.text = "I'm Also fine";
   } else if (text == "nice to meet you") {
     speech.text = "thank you. nice to meet you too.";
   } else if (text == "your voice is so nice") {
