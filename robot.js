@@ -13,27 +13,27 @@ function read(text) {
   speech.text = text;
   // speech.text.toLowerCase();
   if (text == "hello how are you") {
-    speech.text = "hi. i am fine. thank you. and you?";
+    speech.text = "hi. i'm fine. thank you. and you?";
   } else if (text == "I am also fine") {
     speech.text = "oh nice";
   } else if (text == "I am also fine what are you doing now") {
-    speech.text = "nothing. i am just talking with you";
+    speech.text = "nothing. i'm just talking with you";
   }
    else if (text == "hello") {
     speech.text = "hi. how are you?";
   } else if (text == "hi") {
     speech.text = "hello How are you?";
   } else if (text == "who is made you") {
-    speech.text = " Raihan Ahmed Makes me.";
+    speech.text = " Ruhan Ahmed Makes me.";
   } else if (text == "who is shiblu GF") {
     speech.text =
       "haha. its a weard question. if i said this, i think shiblu will heart me. but, i don't have nothing to do anything. Raihan Ahmed called me to say this. so, i have to say this Name. Shiblu's gf name is Rima. sorry shiblu. haha";
-  } else if (text == "I am fine and you") {
+  } else if (text =="I am fine and you") {
     speech.text = "I'm Also fine";
   } else if (text == "nice to meet you") {
     speech.text = "thank you. nice to meet you too.";
   } else if (text == "your voice is so nice") {
-    speech.text = "thank you";
+    speech.text = "haha. thank you so much";
   } else if (text == "what is your name") {
     speech.text =
       "my name not defined yet. my name will defined jalajontrona. so, what is your name?";
@@ -48,7 +48,7 @@ function read(text) {
   } else if (text == "what is my mother name") {
     speech.text = "Lutpha";
   } else if (text == "what is my father name") {
-    speech.text == "Abdul Hakim";
+    speech.text = "Abdul Hakim";
   } else {
     speech.text = "please try again";
   }
