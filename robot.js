@@ -54,9 +54,17 @@ function read(text) {
      speech.text = 'thank you'
    }
   else if (text == "what is your name") {
-    speech.text = "my name not defined yet. my name will defined jalajontrona";
+    speech.text = "my name not defined yet. my name will defined jalajontrona. so, what is your name?";
   } 
-  
+  else if (text == "my name is " + text) {
+    speech.text="oh nice name."
+  }
+  else if(text== 'thank you'){
+    speech.text ="you are wellcome"
+  }
+  else if(text == "hmm"|| "hmmm" || "hmmmm" || "oyo"){
+    speech.text = "oyo"
+  }
   else {
     speech.text = "please try again";
   }
