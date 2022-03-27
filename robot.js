@@ -25,10 +25,7 @@ function read(text) {
   } else if (text == "hi") {
     speech.text = "hello How are you?"
   } else if (
-    text == "who is made you" ||
-    "who makes you" ||
-    "who is makes you" ||
-    "who makes you"
+    text == "who is made you"
   ) {
     speech.text = " Raihan Ahmed Makes me."
   } 
