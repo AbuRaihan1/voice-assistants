@@ -18,18 +18,13 @@ function read(text) {
     speech.text = "oh nice"
   } else if (text == "i am also fine what are you doing now") {
     speech.text = "nothing. i am just talking with you"
-  } else if (text == "i am also fine") {
-    speech.text = "oh nice"
   } else if (text == "hello") {
     speech.text = "hi. how are you?"
   } else if (text == "hi") {
     speech.text = "hello How are you?"
-  } else if (
-    text == "who is made you"
-  ) {
+  } else if (text == "who is made you") {
     speech.text = " Raihan Ahmed Makes me."
-  } 
-  else if (text == "who is shiblu GF") {
+  } else if (text == "who is shiblu GF") {
     speech.text =
       "haha. its a weard question. if i said this, i think shiblu will heart me. but, i don't have nothing to do anything. Raihan Ahmed called me to say this. so, i have to say this Name. Shiblu's gf name is Rima. sorry shiblu. haha"
   } else if (text == "i am fine and you") {
@@ -41,22 +36,19 @@ function read(text) {
   } else if (text == "what is your name") {
     speech.text =
       "my name not defined yet. my name will defined jalajontrona. so, what is your name?"
-  } else if (text == "my name is " + text) {
-    speech.text = "oh nice name."
-  } else if (text == "thank you") {
+  } 
+  // else if (text == "my name is " + text) {
+  //   speech.text = "oh nice name."
+  // } 
+  else if (text == "thank you") {
     speech.text = "you are wellcome"
   } else if (text == "hmm") {
     speech.text = "oyo"
-  } 
-  else if(text== "what is my mother name"){
-    speech.text="Lutpha"
-  }
-
-  else if(text=="what is my father name"){
-    speech.text=="Abdul Hakim"
-  }
-
-  else {
+  } else if (text == "what is my mother name") {
+    speech.text = "Lutpha"
+  } else if (text == "what is my father name") {
+    speech.text == "Abdul Hakim"
+  } else {
     speech.text = "please try again"
   }
   document.getElementById("ai_voice").innerHTML = speech.text;
