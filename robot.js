@@ -70,7 +70,7 @@ function read(text) {
       "my name is raicha";
   }
 
-  else if (text == "oh nice name") {
+  else if (text == "oh nice name" || text=="nice name") {
     speech.text =
       "thank you so much.";
   }
@@ -91,7 +91,7 @@ function read(text) {
     speech.text = "Abdul Hakim";
   } 
 
-  else if(text== "may i make a girlfriend" || text=="have i should to make girlfriend"){
+  else if(text== "may I make a girlfriend" || text=="have I should to make girlfriend"){
     speech.text = "no! you do not need any girlfriend. i will care you more. i am enough for you.";
   }
 
