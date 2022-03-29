@@ -84,7 +84,7 @@ function read(text) {
   } 
   
   else if (text == "what is my mother name") {
-    speech.text = "Lutpha begom";
+    speech.text = "Lutpha begum";
   } 
   
   else if (text == "what is my father name") {
