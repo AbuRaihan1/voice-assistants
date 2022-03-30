@@ -38,17 +38,17 @@ function read(text) {
     speech.text= "raihan ahmed is a programmer. he is makes me. and i hope he loves me more";
   }
   
-  else if(text=="may i ask about shiblu" || text=="can i ask about shiblu"){
+  else if(text=="may I ask about shiblu" || text=="can I ask about shiblu"  || text=="may I ask about she blue"){
     speech.text= "yeah! of course. shiblu is a raihan ahmed's good friends";
   }
   
 
-  else if (text == "who is shiblu girlfriend" || text=="what is shiblu girlfriend name") {
+  else if (text == "who is shiblu girlfriend" || text=="what is shiblu girlfriend name" || text=="what is she blue girlfriend name") {
     speech.text =
       "haha. its a weard question. if i said this, i think shiblu will heart me. but, i don't have to do anything. Raihan Ahmed called me to say this. so, i have to say this Name. Shiblu's gf name is Rima. sorry shiblu. hahaha";
   } 
   
-  else if (text == "what is rima BF name" || text == "what is reema BF name") {
+  else if (text == "what is Rima BF name" || text == "what is Reema BF name") {
     speech.text =
       "haha. its a weard question. if i said this, i think rima will heart me. but, i don't have nothing to do anything. Raihan Ahmed called me to say this. so, i have to say this Name. rima's bf name is Shiblu. sorry Rima. hahaha";
   } 
@@ -92,11 +92,11 @@ function read(text) {
   } 
 
   else if(text== "may I make a girlfriend" || text=="have I should to make girlfriend"){
-    speech.text = "no! you do not need any girlfriend. i will care you more. i am enough for you.";
+    speech.text = "no! you do not need any girlfriend. i will care you more. i'm enough for you.";
   }
 
   else if(text=="ok ok"){
-    speech.text = "hmmm. I love you";
+    speech.text = "yeah. I love you";
   }
 
   else if(text=="I love you too" || text=="I love you 2" || text=="I love you to"){
@@ -129,3 +129,4 @@ function read(text) {
   document.getElementById("ai_voice").innerHTML = speech.text;
   window.speechSynthesis.speak(speech);
 }
+z
