@@ -1,4 +1,5 @@
 let recognition = new webkitSpeechRecognition();
+recognition.lang = "en-us"
 
 recognition.onresult = function (event) {
   var text = event.results[0][0].transcript;
@@ -34,8 +35,8 @@ function read(text) {
     speech.text = "Raihan Ahmed Makes me.";
   } 
 
-  else if(text=="who is raihan ahmed"){
-    speech.text= "raihan ahmed is a programmer. he is makes me. and i hope he loves me more";
+  else if(text=="who is raihan ahmed" || text=="who is Raihan " || text=="who is  Ahmed" || text=="who is he"){
+    speech.text= "raihan ahmed is a programmer. he makes me. and i hope he loves me more";
   }
   
   else if(text=="may I ask about shiblu" || text=="can I ask about shiblu"  || text=="may I ask about she blue"){
@@ -61,13 +62,13 @@ function read(text) {
     speech.text = "thank you. nice to meet you too.";
   } 
   
-  else if (text == "your voice is so nice") {
+  else if (text == "your voice is so nice" || text=="nice voice") {
     speech.text = "haha. thank you so much. your too";
   } 
   
   else if (text == "what is your name") {
     speech.text =
-      "my name is raicha";
+      "my name not defined yet. maybe will be a good name ";
   }
 
   else if (text == "oh nice name" || text=="nice name") {
@@ -129,4 +130,3 @@ function read(text) {
   document.getElementById("ai_voice").innerHTML = speech.text;
   window.speechSynthesis.speak(speech);
 }
-z
